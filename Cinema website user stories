@@ -1,0 +1,122 @@
+* 2 Week Sprint x 3
+* DOD- this feature is tested by one peer developer and is excuted without error and also approved UX designer. the feature should also have user documentation.
+* AC = Acceptance Criteria
+
+*Epic 10 - create a cinema booking system - 
+U1 - As a user I would like to a create user account page so that I can log in and view/edit my bookings.
+Given the user is on the create user account page
+when they enter their details
+and click register 
+then they will be sent a confirmation email.
+
+U2 - As a User I would like a log in page so that I can book view, edit and book tickets.
+Given the user is on the log in page
+When they enter their username
+And their password
+And click log in
+Then they will be sent to the home page logged in
+
+
+U3 - As a User I would like to view list of flims so that I can select the film I need to view.
+Given the user is on view film page
+when they select the film
+and click more information
+then they will be sent to the more information page and to select date/time
+
+
+U4 - As a user I would like to select date/time so that I can choose when to go to the cinema.
+Given the user is on date/time page
+when they select date
+and select the time
+and click continue
+then they will be sent to view amount of page
+
+
+U5 - As a User I would like to view amount so that I can see which type of ticket to select.
+Given the User is on the view amount page
+when they select view amount
+and click continue
+then they will be sent to select type of ticket page
+
+U6 - As a user I would like to select type of tickets so that I can choose my prefferred screen.
+Given the User is on the select type tickets
+when they select the type of ticket they want
+and the amount of tickets they want
+and click continue
+then they will be sent to select seat page
+
+U7 - As a user I would like to select seats so that I can choose where to view from.
+Given the user is on the select seats page
+when they select seats
+and click continue
+then they will be sent to edit booking page
+
+U8 - As a user I would like to Edit booking so that I can make changes to my booking.
+Given User is on the edit booking page
+when they edit the booking
+and confirm changes
+and continue
+then they will be sent to make payment
+
+U9 - As a user I would like to make payment so that I can confirm my booking.
+Given user is on the make payment page
+when they enter card details 
+and click confirm payment
+and click continue
+then they will be sent to the booking confirmation page
+
+U10 - As a user I would like booking confirmation sent to email so that I Print the tickets.
+Given User is on the booking confirmation page
+when they click sent confirmation
+and enter email address
+and click confirm
+then they will be sent a confirmation booking email
+
+*Epic 2 - embedd the content on the website
+U11 - As an Admin I would like trailers links from third party so that I can embedd them in our website.
+Given Admin is sent out two trailer links
+when they can upload it on website
+and view the trailer
+then they will need more space for other trailers
+
+U12 - As an Admin I would like space on the homepage to feature the trailers. 
+Given Admin can view at least 3 trailers
+when they still got more space for 27 trailers
+and they can upload 30 trailers at once
+then they will be able to update the system.
+
+
+*Epic 3 - create an admin suite
+U13 - As an admin I would like an admin suite so that I can control the system developed.
+AC- once the admin suite is create and admin can control the system developed without any error.
+
+U14 - As an Admin I would like to manually update any features on the website so that I have full control on the updates.
+AC- once Admin can make at least 2 manual updates to any feature on the website.
+
+*Epic 4 - create a staff portal
+U15 - As a staff member I would like a log in page to staff portal so that I can access booking information.
+Given the staff is on log in page
+when they enter thier unique ID
+and their password
+and click log in
+then they will be sent to the homepage
+
+U16 - As a Staff Member I would like the ability to view booking booking so that I can manage bookings.
+Given the staff member is homepage
+when they click view booking
+and can see all bookings made
+and manage bookings
+then they will able to save bookings
+
+U17 - As a staff member I would like the ability to create booking information so that I can allow users to book tickets.
+Given staff member is on create booking information page
+when they click create booking
+and enter details
+and save
+then it will show up on the website.
+
+* 1 Sprint = 2 weeks
+* Total Sprint 3
+* Epic 1 and Epic 2 will take take 1 Sprint.
+* Epic 3 will take 1 sprint.
+* Epic 4 will take 1 sprint
